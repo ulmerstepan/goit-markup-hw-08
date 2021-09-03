@@ -890,7 +890,7 @@ img {
   }
 }
 
-.mailing__btn--box {
+.mailing__btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
