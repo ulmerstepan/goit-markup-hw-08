@@ -1,0 +1,51 @@
+/* наша команда */
+.section__grey-bg {
+  background-color: $background-light-grey;
+}
+.team-list {
+  margin: -15px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.team-list__item {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: $accent-white-color;
+  text-align: center;
+  margin: 15px;
+
+  width: calc(100% - 30px);
+
+  @media screen and (min-width: 768px) {
+    width: calc((100% - 30px * 2) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 30px * 4) / 4);
+  }
+}
+.team-list__img {
+  width: 100%;
+}
+.team-list__item-box {
+  padding: 30px 0;
+}
+
+.team-list__title {
+  margin-bottom: 10px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: $title-text-color;
+}
+.team-list__description {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 1.19;
+}

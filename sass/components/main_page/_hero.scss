@@ -1,0 +1,50 @@
+/* Баннер*/
+.hero {
+  background-color: $background-dark-grey;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero.jpg);
+
+  max-width: 1600px;
+  min-width: 320px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  text-align: center;
+
+  @media screen and (min-width: 1200px) {
+    height: 600px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    background-image: url(../images/hero-x2.jpg);
+  }
+}
+.hero__title {
+  margin-top: 108px;
+  margin-bottom: 30px;
+
+  font-weight: 900;
+  font-size: 26px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: $accent-white-color;
+  text-transform: uppercase;
+
+  @media screen and (min-width: 1200px) {
+    font-size: 44px;
+    line-height: 1.36;
+    margin-top: 190px;
+  }
+}
