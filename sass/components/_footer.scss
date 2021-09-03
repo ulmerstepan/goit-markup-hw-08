@@ -115,9 +115,9 @@
   }
 }
 .mailing__btn--box {
-  display: flex;
+  display: flexbox;
   justify-content: center;
-  align-items: center;
+  align-items: baseline;
 }
 .mailing__icon {
   margin-left: 10px;
